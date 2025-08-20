@@ -56,9 +56,7 @@ cloud-notes-app/
 
 ## 🌐 Infrastructure Diagram (Text Version)
 
-markdown
-Copy
-Edit
+
   🌐 Internet
      │
      ▼
