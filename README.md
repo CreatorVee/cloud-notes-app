@@ -4,7 +4,7 @@
 
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
-### 💻 Tech Stack
+###  Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) 
@@ -22,13 +22,13 @@
 Cloud Notes App is a **full-stack, cloud-ready notes application**. Users can create, read, update, and delete notes online. The app is **scalable**, **maintainable**, and deployed on the cloud.
 
 ### 🔑 Key Features
-- 🖥️ React frontend with notes interface  
-- 🟢 Node.js backend (REST API)  
-- 🐳 Dockerized frontend & backend  
-- ☸️ Kubernetes deployment on Azure (AKS)  
-- 🌍 Terraform automated infrastructure  
-- 📈 Scalable architecture for production  
-- 🗄️ Optional MongoDB for storage  
+-  React frontend with notes interface  
+-  Node.js backend (REST API)  
+-  Dockerized frontend & backend  
+-  Kubernetes deployment on Azure (AKS)  
+-  Terraform automated infrastructure  
+-  Scalable architecture for production  
+-  Optional MongoDB for storage  
 
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
@@ -54,7 +54,7 @@ cloud-notes-app/
 └── README.md
 
 
-## 🌐 Infrastructure Diagram (Text Version)
+##  Infrastructure Diagram (Text Version)
 
 
   🌐 Internet
