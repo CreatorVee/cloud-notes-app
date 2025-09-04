@@ -1,6 +1,6 @@
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
-# ☁️ Cloud Notes App
+#  Cloud Notes App
 
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
@@ -17,11 +17,11 @@
 
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
-## 📝 Project Overview
+##  Project Overview
 
 Cloud Notes App is a **full-stack, cloud-ready notes application**. Users can create, read, update, and delete notes online. The app is **scalable**, **maintainable**, and deployed on the cloud.
 
-### 🔑 Key Features
+### Key Features
 -  React frontend with notes interface  
 -  Node.js backend (REST API)  
 -  Dockerized frontend & backend  
@@ -33,7 +33,7 @@ Cloud Notes App is a **full-stack, cloud-ready notes application**. Users can cr
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
 
-## 📂 Project Structure
+##  Project Structure
 
 cloud-notes-app/
 ├── backend/
@@ -57,16 +57,16 @@ cloud-notes-app/
 ##  Infrastructure Diagram (Text Version)
 
 
-  🌐 Internet
+   Internet
      │
      ▼
-[⚛️ React Frontend] <─── 🐳 Docker Container ────► ☸️ Kubernetes Service
+[ React Frontend] <───  Docker Container ────►  Kubernetes Service
 │
 ▼
-[🟢 Node.js Backend] <─── 🐳 Docker Container
+[ Node.js Backend] <─── Docker Container
 │
 ▼
-[🗄️ MongoDB / Database]
+[🗄 MongoDB / Database]
 │
 ▼
 Terraform provisioned
@@ -74,7 +74,7 @@ AKS Cluster on Azure
 
 
 
-## 🚀 How It Was Built
+##  How It Was Built
 
 ### 1️⃣ Backend
 - Node.js server (`index.js`) with REST API  
@@ -126,6 +126,27 @@ kubectl scale deployment backend --replicas=3
 Manage infrastructure:
 terraform destroy
 
+
+
+---
+
+ Personal Study Notes & Learnings
+
+Learned how to containerize applications (Docker).
+
+Understood Kubernetes concepts like pods, services, deployments.
+
+Automated infrastructure provisioning with Terraform.
+
+Explored Azure Kubernetes Service (AKS) for cloud-native deployment.
+
+Improved knowledge of CI/CD practices for real-world scalability.
+
+Learned to structure clean, maintainable code for production environments
+
+---
+
+
 📌 Notes
 This project combines frontend, backend, and cloud infrastructure into a single, scalable application.
 
@@ -133,5 +154,11 @@ MongoDB can be used for persistent storage.
 
 Designed to be production-ready and easy to maintain.
 
-⚡ Conclusion
+ Conclusion
 Cloud Notes App is a modern full-stack cloud-native application using Docker, Kubernetes, Terraform, and Azure. It demonstrates real-world cloud infrastructure management, scalability, and production-ready deployment.
+
+---
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0000e3f7-343c-47d2-848c-145d1e2c39c6" />
+
+Users access the React frontend → which talks to the Node.js backend → that connects to the MongoDB database. Everything runs inside Docker containers, managed by Kubernetes on an Azure AKS cluster, with Terraform used to set up the infrastructure.
