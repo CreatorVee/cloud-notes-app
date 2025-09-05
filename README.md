@@ -34,43 +34,52 @@ Cloud Notes App is a **full-stack, cloud-ready notes application**. Users can cr
 
 
 ##  Project Structure
+CLOUD NOTES-APP/
 
-cloud-notes-app/
-├── backend/
+├── BACKEND/
+
 │ ├── index.js
+
 │ ├── package.json
+
 │ ├── package-lock.json
+
 │ └── node_modules/
-├── frontend/
+
+├── FRONTEND/
+
 │ ├── src/
+
 │ ├── public/
+
 │ ├── package.json
+
 │ └── node_modules/
-├── infra/
+
+├── INFRA/
+
 │ └── terraform/
+
 │ ├── main.tf
+
 │ ├── variables.tf
+
 │ └── outputs.tf
+
 └── README.md
 
 
-##  Infrastructure Diagram (Text Version)
+##  Infrastructure IDEA:
 
+You open a website → React frontend shows up.
 
-   Internet
-     │
-     ▼
-[ React Frontend] <───  Docker Container ────►  Kubernetes Service
-│
-▼
-[ Node.js Backend] <─── Docker Container
-│
-▼
-[🗄 MongoDB / Database]
-│
-▼
-Terraform provisioned
-AKS Cluster on Azure
+That frontend talks to the backend (Node.js) through Kubernetes.
+
+Backend talks to a database (MongoDB) to store and get data.MONGODB was not used in this project)-Its an optional tool to seriously needed to preserve data of users etc.
+
+Everything (frontend, backend, DB) runs inside containers.
+
+Terraform sets up the playground (Kubernetes cluster on Azure) where all these containers live
 
 
 
