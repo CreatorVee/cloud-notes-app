@@ -156,7 +156,7 @@ Learned to structure clean, maintainable code for production environments
 ---
 
 
-📌 Notes
+# Notes
 This project combines frontend, backend, and cloud infrastructure into a single, scalable application.
 
 MongoDB can be used for persistent storage.
