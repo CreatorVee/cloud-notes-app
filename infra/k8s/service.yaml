@@ -1,1 +1,13 @@
 # Kubernetes service
+apiVersion: v1
+kind: Service
+metadata:
+  name: notes-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: notes-app
+  ports:
+    - port: 80
+      targetPort: 3000
+

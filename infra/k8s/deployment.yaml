@@ -1,1 +1,25 @@
 # Kubernetes deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: notes-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: notes-app
+  template:
+    metadata:
+      labels:
+        app: notes-app
+    spec:
+      containers:
+        - name: backend
+          image: vinny100/cloud-notes-backend
+          ports:
+            - containerPort: 5000
+        - name: frontend
+          image: vinny100/cloud-notes-frontend
+          ports:
+            - containerPort: 3000
+
