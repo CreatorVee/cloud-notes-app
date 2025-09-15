@@ -32,7 +32,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
   }
 
   api_server_access_profile {
-    authorized_ip_ranges = ["31.104.166.132/32"]
+    authorized_ip_ranges = [var.authorized_ip]
   }
 
   default_node_pool {
