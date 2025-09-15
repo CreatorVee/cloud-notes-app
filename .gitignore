@@ -3,3 +3,5 @@ node_modules/
 *.tfstate
 *.tfstate.backup
 infra/terraform/.terraform/
+*.env
+infra/terraform/.env
