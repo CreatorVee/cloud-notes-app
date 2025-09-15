@@ -5,12 +5,13 @@
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
 ###  Tech Stack
+ *CLICK ON THE DIFFERENT TECH  BADGES TO SEE HOW I USED THE TOOLS IN MY WORK*   ✅ 
 
 # DevOps & Infrastructure:
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/tree/main/infra/docker)
+
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/blob/main/infra/k8s/deployment.yaml)
 [![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/blob/main/infra/terraform/main.tf)
-
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/tree/main/infra/docker)
 
 ---
 
@@ -22,7 +23,7 @@
 
 
 # Frontend Technologies:
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/CreatorVee/cloud-notes-app/tree/main/frontend)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/CreatorVee/cloud-notes-app/blob/main/frontend/dockerfile)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://github.com/CreatorVee/cloud-notes-app/blob/main/frontend/package.json)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/blob/main/frontend/public/index.html)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/blob/main/frontend/src/App.css)
