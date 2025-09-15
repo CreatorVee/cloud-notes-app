@@ -167,7 +167,20 @@ Designed to be production-ready and easy to maintain.
 Cloud Notes App is a modern full-stack cloud-native application using Docker, Kubernetes, Terraform, and Azure. It demonstrates real-world cloud infrastructure management, scalability, and production-ready deployment.
 
 ---
+#  CLOUD-NOTES-APP-EVIDENCE
+
+
+<img width="1052" height="860" alt="2025-09-14_01h18_59" src="https://github.com/user-attachments/assets/dd3d2f32-ef83-48e9-a120-0ea205fe019d" />
+
+
+
+---
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0000e3f7-343c-47d2-848c-145d1e2c39c6" />
 
+
 Users access the React frontend → which talks to the Node.js backend → that connects to the MongoDB database. Everything runs inside Docker containers, managed by Kubernetes on an Azure AKS cluster, with Terraform used to set up the infrastructure.
+
+---
+
+
