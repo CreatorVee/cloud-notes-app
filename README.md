@@ -5,7 +5,7 @@
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
 ###  Tech Stack
- *CLICK ON THE DIFFERENT TECH  BADGES TO SEE HOW I USED THE TOOLS IN MY WORK*   ✅ 
+ *CLICK ON THE DIFFERENT TECH  BADGES TO SEE HOW I USED THE TOOLS IN MY WORK*   
 
 # DevOps & Infrastructure:
 
@@ -107,7 +107,8 @@ Terraform sets up the playground (Kubernetes cluster on Azure) where all these c
 
 ##  How It Was Built
 
-### 1️⃣ Backend
+### 1️- Backend
+
 - Node.js server (`index.js`) with REST API  
 - Installed dependencies:
 npm install express cors body-parser
@@ -116,7 +117,9 @@ Dockerized backend:
 
 docker build -t cloud-notes-backend .
 docker run -p 5000:5000 cloud-notes-backend
-2️⃣ Frontend
+
+
+## 2️- Frontend
 Created React app (create-react-app frontend)
 
 Connected frontend to backend API
@@ -130,7 +133,7 @@ docker run -p 3000:3000 cloud-notes-frontend
 ---
 
 
-3️⃣ Kubernetes & Azure
+## 3️- Kubernetes & Azure
 Created Terraform configuration files for AKS
 
 Provisioned AKS cluster:
@@ -149,7 +152,7 @@ kubectl get service
 ---
 
 
-4️⃣ Scaling & Management
+## 4️- Scaling & Management
 Scale deployments:
 
 
