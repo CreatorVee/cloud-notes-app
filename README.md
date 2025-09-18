@@ -55,7 +55,7 @@ Cloud Notes App is a **full-stack, cloud-ready notes application**. Users can cr
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
 
-##  Project Structure
+## 📂  Project Structure
 CLOUD NOTES-APP/
 
 ├── BACKEND/
@@ -91,7 +91,7 @@ CLOUD NOTES-APP/
 └── README.md
 
 
-##  Infrastructure IDEA:
+## 🌐 Infrastructure IDEA:
 
 You open a website → React frontend shows up.
 
@@ -164,7 +164,7 @@ terraform destroy
 
 ---
 
- Personal Study Notes & Learnings
+# 📚 Personal Study Notes & Learnings
 
 Learned how to containerize applications (Docker).
 
@@ -181,7 +181,7 @@ Learned to structure clean, maintainable code for production environments
 ---
 
 
-# Notes
+# 📝 Notes
 This project combines frontend, backend, and cloud infrastructure into a single, scalable application.
 
 MongoDB can be used for persistent storage.
@@ -192,7 +192,7 @@ Designed to be production-ready and easy to maintain.
 Cloud Notes App is a modern full-stack cloud-native application using Docker, Kubernetes, Terraform, and Azure. It demonstrates real-world cloud infrastructure management, scalability, and production-ready deployment.
 
 ---
-#  CLOUD-NOTES-APP-EVIDENCE
+#  📸 CLOUD-NOTES-APP-EVIDENCE 
 
 
 <img width="1052" height="860" alt="2025-09-14_01h18_59" src="https://github.com/user-attachments/assets/dd3d2f32-ef83-48e9-a120-0ea205fe019d" />
