@@ -164,6 +164,59 @@ terraform destroy
 
 ---
 
+# Security Checks
+
+🛡️ **Security and Code Quality**
+
+I used Snyk and SonarQube to make sure my project is secure, reliable, and high-quality.
+
+Snyk scans all my project dependencies (like npm packages) for known security issues.
+It protects my app from hidden risks that might come from third-party libraries.
+
+SonarQube checks my own source code for bugs, code smells, and potential security weaknesses.
+It helps me write cleaner, safer, and more efficient code.
+
+Together, these tools gave me complete protection — Snyk keeps my dependencies safe, and SonarQube keeps my own code strong and secure.
+Using both also helped me understand how real DevOps engineers maintain security and code quality in production projects.
+
+---
+
+**SYNK**
+
+- Command used: npx snyk test
+
+- Result: No vulnerable paths found.
+
+- The project is also monitored with Snyk for ongoing vulnerability alerts:
+
+
+<img width="1575" height="796" alt="Screenshot from 2025-10-29 17-40-39" src="https://github.com/user-attachments/assets/0ac30362-5fae-4cac-8e50-c8f08cc9bca1" />
+
+---
+
+**SONARQUBE**
+
+
+- Command used: sonar-scanner
+
+
+- Result:
+The analysis completed successfully with no major issues detected.
+
+
+
+<img width="1920" height="1032" alt="2025-10-29_19h18_38" src="https://github.com/user-attachments/assets/1c06050c-8bf7-4ec9-9afb-af5a08c42feb" />
+
+---
+
+
+<img width="1214" height="760" alt="SonarQube evidence-Devsecops" src="https://github.com/user-attachments/assets/111fdcb2-9d9e-4e3c-a9b5-af9ae88be752" />
+
+
+
+---
+
+
 # 📚 Personal Study Notes & Learnings
 
 Learned how to containerize applications (Docker).
