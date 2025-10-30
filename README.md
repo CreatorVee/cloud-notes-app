@@ -18,6 +18,8 @@
 # Backend Technologies:
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/blob/main/backend/index.js)
 [![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/blob/main/backend/package.json)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://github.com/CreatorVee/cloud-notes-app/blob/main/backend/index.js)
+
 
 ---
 
@@ -50,7 +52,7 @@ Cloud Notes App is a **full-stack, cloud-ready notes application**. Users can cr
 -  Kubernetes deployment on Azure (AKS)  
 -  Terraform automated infrastructure  
 -  Scalable architecture for production  
--  Optional MongoDB for storage  
+- MongoDB for storage  
 
 <div style="border-top: 4px solid black; margin: 30px 0;"></div>
 
@@ -216,6 +218,18 @@ The analysis completed successfully with no major issues detected.
 
 ---
 
+# Added MongoDB
+
+🗄️**MongoDB Connection**
+
+I added MongoDB to my project to store and manage data like notes safely.
+I connected it in my index.js file so my app can save, read, and update data easily.
+This makes my project more organized, secure, and ready to grow in the future.
+
+<img width="1849" height="972" alt="2025-10-30_10h26_48" src="https://github.com/user-attachments/assets/3bea1f66-6650-4995-9f97-66cd7948bf87" />
+
+
+---
 
 # 📚 Personal Study Notes & Learnings
 
